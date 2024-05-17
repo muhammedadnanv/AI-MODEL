@@ -1,0 +1,48 @@
+{
+    "info": {
+        "description": "Example Dataset",
+        "version": "1.0",
+        "year": 2024,
+        "contributor": "Muhammed Adnan",
+        "date_created": "2024-05-17"
+    },
+    "images": [
+        {
+            "id": 1,
+            "kamarunnisa": "https://i.ibb.co/K0y6vbB/Whats-App-Image-2024-05-17-at-22-14-14.jpg",
+            "width": 640,
+            "height": 480
+        },
+        {
+            "id": 2,
+            "kaychu": "https://i.ibb.co/HVDnXqY/Whats-App-Image-2024-05-17-at-22-14-14-1.jpg",
+            "width": 640,
+            "height": 480
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [100, 100, 200, 200],
+            "area": 40000,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 2,
+            "category_id": 1,
+            "bbox": [50, 50, 150, 150],
+            "area": 22500,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "object",
+            "supercategory": "none"
+        }
+    ]
+}
