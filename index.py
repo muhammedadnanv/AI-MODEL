@@ -2,7 +2,7 @@ import json
 import os
 from PIL import Image
 
-def create_ai_camera_dataset(image_folder):
+def create_ai_camera_dataset(dataset.json):
     dataset = {
         "info": {
             "description": "Example Dataset",
@@ -60,3 +60,5 @@ if __name__ == "__main__":
     image_folder = 'path/to/your/image/folder'
     create_ai_camera_dataset(image_folder)
     print("AI camera dataset created and saved to 'ai_camera_dataset.json'")
+
+
